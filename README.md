@@ -1,159 +1,180 @@
-<div align="center">
-
-# AI Impact on Human Mental Health
-
-### Interactive Power BI Dashboard | AI Usage, Human Growth & Cognitive Risk Analysis
+# AI Impact on Human Mental Health Dashboard
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Measures-0078D4?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-217346?style=for-the-badge)
-![Portfolio Project](https://img.shields.io/badge/Project-Data%20Analytics-00B8D9?style=for-the-badge)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-1E90FF?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-2EA44F?style=for-the-badge)
 
-**Turning AI usage data into meaningful insights about dependency, wellbeing, creativity and cognitive performance.**
+An interactive **Power BI dashboard** exploring how AI usage and dependency may relate to critical thinking, creativity, attention span, adaptability, learning speed, mental wellbeing, and cognitive-risk indicators across demographic groups, professions, education levels, regions, scenarios, and time periods.
 
-</div>
+> **Important:** This is an analytical portfolio project based on the supplied dataset. The dashboard identifies patterns and associations; it does not establish medical causation or provide clinical advice.
 
 ---
 
-## Project Overview
-
-This Power BI project explores how AI usage may influence human mental wellbeing, attention span, critical thinking, creativity, adaptability, learning speed and cognitive risk. The dashboard enables users to compare outcomes across demographic groups, professions, education levels, regions, AI-tool categories and future scenarios.
-
-The report is designed as a portfolio-ready analytical solution that combines KPI tracking, trend analysis, demographic comparison and interactive exploration.
-
 ## Dashboard Preview
 
-```markdown
-![Dashboard Overview](images/ai-impact-overview.png)
-```
+![AI Impact on Human Mental Health Overview](assets/overview-dashboard.png)
 
-> Add exported dashboard screenshots to the `images` folder using the filenames shown in the repository structure.
+---
 
-## Business Problem
+## Project Objective
 
-As AI becomes increasingly integrated into education, work and daily life, decision-makers need a structured way to understand both its potential benefits and its possible cognitive or wellbeing risks.
+The project was created to examine the possible impact of increasing AI usage on human mental growth and wellbeing. It transforms a large dataset into an interactive report that helps users:
 
-This dashboard addresses questions such as:
+- Track AI usage and dependency over time.
+- Compare cognitive and wellbeing indicators across population groups.
+- Explore relationships between AI usage, attention span, creativity, and critical thinking.
+- Identify professions, regions, and education levels with different behavioral patterns.
+- Evaluate positive-growth, stagnant/moderate, and cognitive-decline-risk outcomes.
 
-- Does greater AI usage correspond with higher AI dependency?
-- How do creativity, critical thinking and learning speed vary across groups?
-- Which professions or regions show higher cognitive load or risk?
-- How does AI-tool category relate to adaptability and mental wellbeing?
-- Are positive-growth outcomes keeping pace with cognitive-decline risk?
+---
 
-## Executive KPIs
+## Headline KPIs
 
-| KPI | Value |
+| Metric | Dashboard Value |
 |---|---:|
 | Total Records | **52K** |
 | Critical Thinking Score | **63.14%** |
 | Positive Growth | **36.78%** |
 | AI Dependency | **49.06%** |
-| Cognitive Decline Risk | **64.75%** |
-| Average Weekly AI Usage | **24.57 hours** |
+| Cognitive Decline Risk Score | **64.75%** |
+| Weekly Average AI Usage | **24.57 hours** |
+
+The outcome summary divides records into **Positive Growth (36.78%)**, **Stagnant / Moderate (35.22%)**, and **Cognitive Decline Risk (28.01%)** categories.
+
+---
 
 ## Dashboard Pages
 
-| Page | Analytical Focus |
-|---|---|
-| **AI Impact on Human Mental Health** | Executive overview of AI usage, dependency, mental wellbeing, critical thinking and outcome distribution |
-| **AI Usage & Dependency** | Usage trends, attention span, dependency score, profession-level usage and demographic comparisons |
-| **Human Growth Analysis** | Creativity, innovation, learning speed, problem-solving ability, adaptability and regional performance |
-| **Mental Wellbeing & Cognitive Risk Analysis** | Cognitive load, mental wellbeing, regional risk, learning speed and AI-tool adaptability |
+### 1. Overview Dashboard
+
+Provides a high-level view of AI usage, cognitive outcomes, critical-thinking performance, dependency, and mental-wellbeing indicators.
+
+Key visuals include:
+
+- AI usage trend over time
+- Creativity versus critical thinking
+- Outcome summary
+- AI dependency by education level
+- Mental-wellbeing score by AI tool category
+
+![Overview Dashboard](assets/overview-dashboard.png)
+
+### 2. AI Usage & Dependency
+
+Examines how AI usage hours connect with attention span and dependency scores. It also compares usage across professions, demographic groups, tool categories, and years.
+
+![AI Usage and Dependency](assets/ai-usage-dependency.png)
+
+### 3. Human Growth Analysis
+
+Analyzes adaptability, creativity, learning speed, innovation rate, problem-solving ability, and critical-thinking performance across demographic, professional, education, and regional segments.
+
+![Human Growth Analysis](assets/human-growth-analysis.png)
+
+### 4. Mental Wellbeing & Cognitive Risk
+
+Focuses on cognitive load, mental wellbeing, adaptability, learning speed, and regional cognitive-risk patterns. The page also explores the relationship between AI dependency and mental-wellbeing scores.
+
+![Mental Wellbeing and Cognitive Risk](assets/mental-wellbeing-cognitive-risk.png)
+
+---
 
 ## Key Insights
 
-- AI dependency averages **49.06%** across the dataset.
-- Cognitive decline risk is considerably higher than the positive-growth share, highlighting the importance of balanced and responsible AI use.
-- Higher weekly AI usage shows a visible relationship with higher dependency scores.
-- Mental wellbeing scores remain relatively close across AI-tool categories, suggesting limited variation at an aggregate level.
-- Creativity, critical thinking, adaptability and learning-speed scores are broadly consistent across demographic and regional groups.
-- Full AGI integration and AGI-adjacent tools show slightly stronger adaptability scores than basic assistants or no AI use.
-- The dashboard supports deeper interpretation through filters for profession, education, demographic group, region, scenario and year.
+- Average AI dependency is **49.06%**, while weekly AI usage averages **24.57 hours** in the dataset.
+- Outcome distribution is relatively balanced, with positive growth slightly higher than stagnant/moderate and cognitive-decline-risk categories.
+- AI dependency is consistent across education levels, ranging from approximately **48.86% to 49.26%**.
+- Mental-wellbeing scores show a small decline across increasingly advanced AI tool categories, from **63.67%** for no AI usage to **62.00%** for full AGI integration.
+- Adaptability is highest for **Full AGI Integration (62.77%)** and lowest for **None (61.98%)**, although the overall variation is limited.
+- Creativity scores remain close across demographic groups, ranging from approximately **63.37% to 63.56%**.
+- **Science & Research** and **Education** show the highest innovation rates among the displayed professions.
+- Regional cognitive-risk values are closely grouped, approximately between **0.27 and 0.29**.
+
+These results should be interpreted as descriptive findings within the project dataset rather than proof that AI usage directly causes a specific mental-health or cognitive outcome.
+
+---
 
 ## Interactive Filters
+
+The report supports analysis using the following slicers:
 
 - Demographic Group
 - Profession
 - Education Level
 - Region
 - Scenario
-- Year Range
+- Year range
 
-## Data Preparation & Analytical Workflow
+These filters allow users to move from a broad overview to focused comparisons between specific groups and time periods.
 
-1. Imported the source dataset into Power BI.
-2. Cleaned and standardized fields using Power Query.
-3. Reviewed data types, missing values and category consistency.
-4. Built analytical measures for percentages, averages and KPI cards.
-5. Designed interactive visuals and slicers for cross-sectional analysis.
-6. Applied a consistent dark navy and cyan visual theme for readability and presentation quality.
+---
 
-## Tools & Skills Demonstrated
+## Tools and Skills Demonstrated
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Cleaning
-- Data Modeling
-- KPI Development
-- Exploratory Data Analysis
-- Data Visualization
-- Dashboard Design
-- Business Insight Communication
+- **Power BI Desktop**
+- Interactive dashboard development
+- KPI and report-page design
+- Data visualization and comparison
+- Trend, demographic, and behavioral analysis
+- Scatter plots, donut charts, bar charts, line charts, and treemaps
+- Business storytelling and insight communication
+- User-friendly filtering and report navigation
+
+---
 
 ## Repository Structure
 
 ```text
 AI-Impact-on-Human-Mental-Health/
+│
 ├── README.md
-├── AI_Impact_on_Human_Mental_Health.pbix
-├── data/
-│   └── ai_impact_data.csv
-└── images/
-    ├── ai-impact-overview.png
-    ├── ai-usage-dependency.png
-    ├── human-growth-analysis.png
-    └── mental-wellbeing-risk.png
+├── assets/
+│   ├── overview-dashboard.png
+│   ├── ai-usage-dependency.png
+│   ├── human-growth-analysis.png
+│   └── mental-wellbeing-cognitive-risk.png
+│
+└── docs/
+    └── AI_Impact_on_Human_Mental_Health_Dashboard.pdf
 ```
-
-## How to Use This Project
-
-1. Clone or download the repository.
-2. Open the `.pbix` file in Microsoft Power BI Desktop.
-3. Update the source-file path when prompted.
-4. Refresh the data model.
-5. Use the slicers to explore different demographic, professional, educational and regional groups.
-
-## Future Enhancements
-
-- Add predictive modeling for future cognitive-risk levels.
-- Create drill-through pages for professions and demographic groups.
-- Add tooltip pages containing metric definitions and supporting details.
-- Segment users into low, medium and high AI-usage groups.
-- Publish the report through Power BI Service.
-- Add a glossary explaining each cognitive and wellbeing metric.
-
-## Important Note
-
-This dashboard is an analytical and portfolio project. The findings show patterns within the supplied dataset and should not be interpreted as medical or clinical conclusions.
-
-## Author
-
-### Disha Dhingra
-
-**Data Analyst | Power BI | SQL | Python | Advanced Excel**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Disha%20Dhingra-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/disha-dhingra2003/)
-[![GitHub](https://img.shields.io/badge/GitHub-disha2093-181717?style=flat-square&logo=github)](https://github.com/disha2093/disha2093)
-[![Instagram](https://img.shields.io/badge/Instagram-@da__dishadhingra-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/da_dishadhingra)
-
-📧 **Email:** disha.dhingra2308@gmail.com
 
 ---
 
-<div align="center">
+## How to View the Project
 
-⭐ **If this project is useful, consider starring the repository.**
+1. Open the images in the `assets` folder to preview each dashboard page.
+2. Open the PDF in the `docs` folder for the complete report.
+3. Use the original Power BI file, when included in the repository, to interact with slicers and visuals.
 
-</div>
+---
+
+## Possible Future Enhancements
+
+- Add comparisons between low, medium, and high AI-usage groups.
+- Include statistical testing or correlation summaries.
+- Add drill-through pages for profession and region-level analysis.
+- Introduce tooltips explaining each cognitive and wellbeing indicator.
+- Compare historical and future scenarios more explicitly.
+- Publish an interactive version through Power BI Service.
+
+---
+
+## Author
+
+**Disha Dhingra**  
+Data Analyst | Power BI | SQL | Python | Advanced Excel
+
+- GitHub: [disha2093](https://github.com/disha2093)
+- LinkedIn: [Disha Dhingra](https://www.linkedin.com/in/disha-dhingra2003/)
+
+---
+
+## Disclaimer
+
+This project is intended for learning, portfolio presentation, and exploratory data analysis. The data and future scenarios may be synthetic or modeled. The dashboard is not a medical assessment tool and should not be used to diagnose, treat, or predict an individual's mental-health condition.
+
+---
+
+### Support
+
+If you found this project useful, consider giving the repository a **star**.
